@@ -19,6 +19,10 @@
 		8613C4CD195B8AB2009F5AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8613C4B5195B8AB2009F5AA4 /* UIKit.framework */; };
 		8613C4D5195B8AB2009F5AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8613C4D3195B8AB2009F5AA4 /* InfoPlist.strings */; };
 		8613C4D7195B8AB2009F5AA4 /* facebookWeek2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8613C4D6195B8AB2009F5AA4 /* facebookWeek2Tests.m */; };
+		8613C4E3195B8AC8009F5AA4 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8613C4E1195B8AC7009F5AA4 /* mainViewController.m */; };
+		8613C4E4195B8AC8009F5AA4 /* mainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8613C4E2195B8AC8009F5AA4 /* mainViewController.xib */; };
+		86E0315C1960B66C001EF45A /* feedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0315A1960B66C001EF45A /* feedViewController.m */; };
+		86E0315D1960B66C001EF45A /* feedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E0315B1960B66C001EF45A /* feedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		8613C4D2195B8AB2009F5AA4 /* facebookWeek2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "facebookWeek2Tests-Info.plist"; sourceTree = "<group>"; };
 		8613C4D4195B8AB2009F5AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8613C4D6195B8AB2009F5AA4 /* facebookWeek2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebookWeek2Tests.m; sourceTree = "<group>"; };
+		8613C4E0195B8AC7009F5AA4 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		8613C4E1195B8AC7009F5AA4 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		8613C4E2195B8AC8009F5AA4 /* mainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainViewController.xib; sourceTree = "<group>"; };
+		86E031591960B66C001EF45A /* feedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedViewController.h; sourceTree = "<group>"; };
+		86E0315A1960B66C001EF45A /* feedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedViewController.m; sourceTree = "<group>"; };
+		86E0315B1960B66C001EF45A /* feedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = feedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				8613C4C1195B8AB2009F5AA4 /* AppDelegate.m */,
 				8613C4C3195B8AB2009F5AA4 /* Images.xcassets */,
 				8613C4B8195B8AB2009F5AA4 /* Supporting Files */,
+				8613C4E0195B8AC7009F5AA4 /* mainViewController.h */,
+				8613C4E1195B8AC7009F5AA4 /* mainViewController.m */,
+				8613C4E2195B8AC8009F5AA4 /* mainViewController.xib */,
+				86E031591960B66C001EF45A /* feedViewController.h */,
+				86E0315A1960B66C001EF45A /* feedViewController.m */,
+				86E0315B1960B66C001EF45A /* feedViewController.xib */,
 			);
 			path = facebookWeek2;
 			sourceTree = "<group>";
@@ -221,6 +237,8 @@
 			files = (
 				8613C4BC195B8AB2009F5AA4 /* InfoPlist.strings in Resources */,
 				8613C4C4195B8AB2009F5AA4 /* Images.xcassets in Resources */,
+				86E0315D1960B66C001EF45A /* feedViewController.xib in Resources */,
+				8613C4E4195B8AC8009F5AA4 /* mainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8613C4E3195B8AC8009F5AA4 /* mainViewController.m in Sources */,
 				8613C4C2195B8AB2009F5AA4 /* AppDelegate.m in Sources */,
+				86E0315C1960B66C001EF45A /* feedViewController.m in Sources */,
 				8613C4BE195B8AB2009F5AA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +457,7 @@
 				8613C4DC195B8AB2009F5AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8613C4DD195B8AB2009F5AA4 /* Build configuration list for PBXNativeTarget "facebookWeek2Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +466,7 @@
 				8613C4DF195B8AB2009F5AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
